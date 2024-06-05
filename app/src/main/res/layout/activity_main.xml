@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gainsboro"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="fill_vertical"
+        android:background="@color/WhiteWhite"
+        android:foregroundGravity="top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hospital1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/lightBlue"
+        android:text="Стаматалогия"
+        android:textSize="50dp"
+        app:layout_constraintTop_toBottomOf="@id/View1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/hospital2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/MidleBlue"
+        android:text="Окулист"
+        android:textSize="50dp"
+        app:layout_constraintTop_toBottomOf="@id/hospital1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/hospital3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/FirstBlue"
+        android:text="Кардиаолог"
+        android:textSize="50dp"
+        app:layout_constraintTop_toBottomOf="@id/hospital2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/hospital4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/NaviBlue"
+        android:text="Хирургия"
+        android:textSize="50dp"
+        app:layout_constraintTop_toBottomOf="@id/hospital3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/hospital5"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/DarkBlue"
+        android:text="Городская Детская больница"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/hospital4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/hospital6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/BlackBlue"
+        android:text="Национальный цнтр кардиологии"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/hospital5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <View
+        android:id="@+id/burger1"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/burger2"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/burger1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/burger3"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/burger2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
